@@ -78,6 +78,7 @@ This approach uses **keyword matching** and **regular expressions** to extract i
     "HCPCS": []
   }
 ]
+```
 
 ## 🧠 Approach 2 – NER + Hybrid Extraction (scispaCy Model)
 
