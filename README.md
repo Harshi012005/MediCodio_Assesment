@@ -1,4 +1,4 @@
-# 🧠 Clinical Report Information Extraction
+# Clinical Report Information Extraction
 
 This project extracts **key medical information** (such as clinical terms, anatomical locations, diagnoses, procedures, and medical codes like ICD-10, CPT, and HCPCS) from **clinical reports in PDF format** using two different approaches.
 
@@ -40,7 +40,7 @@ pip install https://s3.amazonaws.com/allenai-scispacy/releases/v0.5.0/en_core_sc
 | `clinicalreport.pdf` | PDF file containing clinical text reports |
 | `json.txt` *(used in Approach 2)* | Text file containing JSON reference from Approach 1 (keyword-based extraction) |
 
-## 🧩 Approach 1 – Traditional Extraction
+## Approach 1 – Traditional Extraction
 
 **File:** `approach1_traditional.py`
 
@@ -48,7 +48,7 @@ This approach uses **keyword matching** and **regular expressions** to extract i
 
 ---
 
-### 🔍 Steps
+### Steps
 
 1. Extract text from PDF using **fitz (PyMuPDF)**.  
 2. Define keyword lists for:
@@ -80,7 +80,7 @@ This approach uses **keyword matching** and **regular expressions** to extract i
 ]
 ```
 
-## 🧠 Approach 2 – NER + Hybrid Extraction (scispaCy Model)
+## Approach 2 – NER + Hybrid Extraction (scispaCy Model)
 
 **File:** `approach2_hybrid.py`
 
@@ -88,7 +88,7 @@ This approach uses a **Named Entity Recognition (NER)** model (`en_core_sci_lg`)
 
 ---
 
-### 🔍 Steps
+### Steps
 
 1. Load the **scispaCy model** (`en_core_sci_lg`) for biomedical entity detection.  
 2. Load a **reference JSON** (from Approach 1) to use as keyword knowledge.  
@@ -134,7 +134,7 @@ This approach uses a **Named Entity Recognition (NER)** model (`en_core_sci_lg`)
 
 ---
 
-## 🧩 Improvements & Future Work
+## Improvements & Future Work
 
 - Integrate ICD, CPT, and HCPCS validation via external datasets.  
 - Build a web interface to upload and visualize results.  
@@ -143,7 +143,7 @@ This approach uses a **Named Entity Recognition (NER)** model (`en_core_sci_lg`)
 
 ---
 
-## 🏁 Summary
+## Summary
 
 | Approach | Type | Strength | Use Case |
 |-----------|------|-----------|-----------|
@@ -152,7 +152,7 @@ This approach uses a **Named Entity Recognition (NER)** model (`en_core_sci_lg`)
 
 ---
 
-## 👩‍⚕️ Author
+## Author
 
 **Harshitha T S**  
 AI Engineer | Data Science Enthusiast 
