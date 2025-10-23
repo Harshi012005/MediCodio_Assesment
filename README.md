@@ -33,7 +33,7 @@ pip install https://s3.amazonaws.com/allenai-scispacy/releases/v0.5.0/en_core_sc
 
 ---
 
-**## 📘 Input Files**
+## 📘 Input Files
 
 | File | Description |
 |------|--------------|
