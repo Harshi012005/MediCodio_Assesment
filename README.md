@@ -25,9 +25,9 @@ Install the required libraries before running the scripts.
 pip install PyMuPDF
 pip install spacy
 pip install scispacy
-pip install https://s3.amazonaws.com/allenai-scispacy/releases/v0.5.0/en_core_sci_lg-0.5.0.tar.gz
+pip install https://s3.amazonaws.com/allenai-scispacy/releases/v0.5.0/en_core_sci_lg-0.5.0.tar.gz```
 
-> Note:  
+> **Note**:  
 > `en_core_sci_lg` is a large biomedical model from **scispaCy**, suitable for clinical and scientific text analysis.
 
 ---
